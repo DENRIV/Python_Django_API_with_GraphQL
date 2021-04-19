@@ -5,15 +5,15 @@ python manage.py makemigrations
 
 python manage.py migrate
 
-# data.json file saved in the current directory, 
+data.json file saved in the current directory, 
 
 # run the next command  to import the data into the database:
 
 python manage.py loaddata db.json
 
-# Installed 5 object(s) from 1 fixture(s)
+Installed 5 object(s) from 1 fixture(s)
 
-# 5 models in file .json
+5 models in file .json
 
 python manage.py runserver
 
